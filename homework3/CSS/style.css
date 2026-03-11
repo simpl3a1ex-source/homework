@@ -1,0 +1,52 @@
+body {
+    font-family: sans-serif;
+
+}
+
+fieldset {
+    margin: 10px;
+    border: none;
+}
+
+.form {
+    border: 2px solid gray;
+    border-radius: 10px;
+    width: 270px;
+    height: 440px;
+}
+
+legend {
+    font-size: large;
+    font-weight: 600;
+    padding: 12px;
+}
+
+label {
+    display: block;
+    padding: 5px;
+    margin: 3px;
+}
+
+input {
+    display: block;
+    border-radius: 3px;
+}
+
+textarea {
+    font-family: sans-serif;
+    display: block;
+    resize: none;
+    border-radius: 5px;
+    border: 2px solid gray;
+    width: 162px;
+}
+
+.checkbox {
+    display: flex;
+    border-radius: 2px;
+}
+
+button {
+    margin: 12px;
+    border-radius: 3px;
+}

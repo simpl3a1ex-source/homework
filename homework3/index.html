@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Домашка 3</title>
+    <link rel="stylesheet" href="./CSS/style.css" />
+</head>
+
+<body>
+    <form class="form">
+        <fieldset class="form-group">
+            <legend>Ваши личные данные</legend>
+            <label class="label">
+                Ваше имя
+                <input type="text" name="name" inputmode="text" placeholder="Имя">
+            </label>
+            <label class="label">
+                Ваш возраст
+                <input type="number" name="age" inputmode="numeric" placeholder="возраст">
+            </label>
+            <label class="label">
+                Ваш номер телефона
+                <input type="tel" name="tel" inputmode="tel" placeholder="номер телефона">
+            </label>
+            <label class="label">
+                Ваша почта
+                <input type="email" name="email" inputmode="email" placeholder="почта">
+            </label>
+            <label>
+                Сообщение
+                <textarea name="message" placeholder="Введите текст"></textarea>
+            </label>
+            <label class="checkbox">
+                <input type="checkbox" name="agree" required />
+                Я принимаю условия
+            </label>
+            <button class="button">
+                Отправить
+            </button>
+
+        </fieldset>
+    </form>
+</body>
+
+</html>
