@@ -1,0 +1,161 @@
+.feedback__container {
+	margin-bottom: 180px;
+}
+
+.feedback__title-scroll {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+	gap: 20px;
+}
+
+@media (width > 786px) {
+	.feedback__title-scroll {
+		padding-block: 80px 40px;
+	}
+}
+
+@media (width <= 786px) {
+	.feedback__title-scroll {
+		padding-block: 50px 24px;
+	}
+}
+
+.feedback__title {
+	font-weight: 900;
+	font-family: var(--second-family);
+}
+
+@media (width > 786px) {
+	.feedback__title {
+		font-size: 48px;
+	}
+}
+
+@media (width <= 786px) {
+	.feedback__title {
+		font-size: 30px;
+		line-height: 120%;
+	}
+}
+
+@media (width <= 786px) {
+	.feedback__star {
+		width: 19px;
+		height: 18px;
+	}
+}
+
+.feedback__icon-scroll {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	gap: 16px;
+}
+
+.swiper-slide {
+	-ms-flex-negative: 0;
+	flex-shrink: 0;
+	overflow: hidden;
+	width: auto;
+}
+
+.feedback__card.swiper-slide {
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	border-radius: 20px;
+	-ms-flex-negative: 0;
+	flex-shrink: 0;
+}
+
+@media (width > 1200px) {
+	.feedback__card.swiper-slide {
+		padding: 28px 32px;
+		width: 400px;
+		height: 240px;
+	}
+}
+
+@media (width <= 1200px) {
+	.feedback__card.swiper-slide {
+		padding: 20px;
+		width: 358px;
+		height: 186px;
+	}
+}
+
+.feedback__name-icon {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	gap: 4px;
+}
+
+@media (width > 1200px) {
+	.feedback__name-icon {
+		padding-block: 20px 17px;
+	}
+}
+
+@media (width <= 1200px) {
+	.feedback__name-icon {
+		padding-block: 12px 8px;
+	}
+}
+
+.feedback__name {
+	font-weight: 700;
+	font-family: var(--font-family);
+}
+
+@media (width > 786px) {
+	.feedback__name {
+		font-size: 20px;
+		line-height: 110%;
+	}
+}
+
+@media (width <= 786px) {
+	.feedback__name {
+		font-size: 16px;
+		line-height: 138%;
+	}
+}
+
+.feedback__description {
+	font-weight: 400;
+	color: var(--disabled-color);
+	font-family: var(--font-family);
+}
+
+@media (width > 1200px) {
+	.feedback__description {
+		font-size: 16px;
+		line-height: 138%;
+	}
+}
+
+@media (width <= 1200px) {
+	.feedback__description {
+		font-size: 14px;
+		line-height: 143%;
+	}
+}
+
+.feedback__title-icon {
+	-webkit-transition: var(--transition-time) ease;
+	-o-transition: var(--transition-time) ease;
+	transition: var(--transition-time) ease;
+	cursor: pointer;
+}
+
+.feedback__title-icon:hover {
+	-webkit-transform: scale(1.15);
+	-ms-transform: scale(1.15);
+	transform: scale(1.15);
+}

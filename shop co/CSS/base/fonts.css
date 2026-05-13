@@ -1,0 +1,65 @@
+@font-face {
+	font-family: "Satoshi";
+	src:
+		local("SatoshiRegular"),
+		local("Satoshi-Regular"),
+		url(../../fonts/SatoshiRegular.woff2) format("woff2");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Satoshi";
+	src:
+		local("SatoshiMedium"),
+		local("Satoshi-Medium"),
+		url(../../fonts/SatoshiMedium.woff2) format("woff2");
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Satoshi";
+	src:
+		local("SatoshiSemiBold"),
+		local("Satoshi-SemiBold"),
+		url(../../fonts/SatoshiBold.woff2) format("woff2");
+	font-weight: 600;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Inter";
+	src:
+		local("InterRegular"),
+		local("Inter-Regular"),
+		url(../../fonts/InterRegular.woff2) format("woff2");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Integral CF";
+	src:
+		local("Integralbold"),
+		local("integral-bold"),
+		url(../../fonts/integralcfbold.woff2) format("woff2");
+	font-weight: 600;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Integral CF Heavy";
+	src:
+		local("IntegralCFHeavy"),
+		local("Integral-CF-Heavy"),
+		url(../../fonts/IntegralCFHeavy.woff2) format("woff2");
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
