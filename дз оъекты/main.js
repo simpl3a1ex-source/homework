@@ -7,14 +7,9 @@ const person = {
 	city: "Yuzhno-Sakhalinsk",
 	mail: "simpl3.a1ex@gmail.com",
 };
-console.log(`Имя:
-	${person.name}
-	Возраст:
-	${person.age}
-	Город:
-	${person.city}
-	Почта:
-	${person.mail}`,);
+for (const key in person) {
+	console.log(`${key}:${person[key]}`);
+}
 
 // Задача 2.
 // Создайте функцию isEmpty, которая проверяет является ли переданный объект пустым. Если объект пуст - верните true, в противном случае false.
