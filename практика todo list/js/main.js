@@ -20,7 +20,23 @@ const getNewTodoId = (todos) =>
 	) + 1;
 
 const getTodoDate = (todos) => {
-	return new Date().toISOString().split("T")[0];
+	return new Date().toLocaleDateString("ru-RU", {
+		day: "numeric",
+		month: "long",
+		year: "numeric",
+	});
+};
+
+const updateDateTodo = (todos, date, todoId) => {
+	const todo = todos.find(
+		(todo) => todo[todoKeys.id] === todoId,
+	);
+	if (todo === undefined) {
+		console.error(errTodoNotFound(todoId));
+		return null;
+	}
+	todo[todoKeys.date] = date;
+	return todo;
 };
 
 const createTodo = (todos, text) => {
